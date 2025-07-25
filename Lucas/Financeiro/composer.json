@@ -1,0 +1,23 @@
+{
+  "name": "lucas/financeiro",
+  "description": "Pacote com lógicas financeiras e utilitários para API",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Lucas\\Financeiro\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^8.0",
+    "illuminate/support": "^8.0|^9.0|^10.0"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [],
+      "aliases": []
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
